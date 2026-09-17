@@ -1,0 +1,28 @@
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Databases and local runtime state
+*.db
+*.sqlite
+*.sqlite3
+
+# Java / Maven build output
+target/
+
+# Node / Vite build output
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# IDE and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
